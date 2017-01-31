@@ -1,4 +1,0 @@
-include::{snippets}/courts/http-request.adoc[]
-include::{snippets}/courts/http-response.adoc[]
-include::{snippets}/courts/response-fields.adoc[]
-include::{snippets}/courts/links.adoc[]
