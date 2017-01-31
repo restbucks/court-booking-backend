@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class IndexRestController {
 
     /**
-     * list rels
+     * list rels.
      *
      * @Return links to rels
      */
