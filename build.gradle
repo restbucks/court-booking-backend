@@ -90,3 +90,7 @@ task installGitHooks(type: Copy) {
 }
 
 build.dependsOn installGitHooks
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.3'
+}
