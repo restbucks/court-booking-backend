@@ -45,7 +45,7 @@ idea {
 }
 
 checkstyle {
-    configFile = file("checkstyle.xml")
+    configFile = file("config/checkstyle.xml")
     toolVersion = "7.4"
 }
 
@@ -82,7 +82,7 @@ test {
 test.finalizedBy jacocoTestReport
 
 task installGitHooks(type: Copy) {
-    from new File(rootProject.rootDir, 'pre-commit')
+    from new File(rootProject.rootDir, 'config/pre-commit')
     into {
         new File(rootProject.rootDir, '.git/hooks')
     }
